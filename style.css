@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Desciption*/
+.description {
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 15px; /* Space inside the box */
+    margin: 20px; /* Space outside the box */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+/* Hyperlink Section */
+.hyperlinks-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.hyperlinks-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.hyperlinks-container p {
+    margin-bottom: 20px;
+}
+
+/* Link List */
+.link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.link-list a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.meme-gallery {
+    display: flex; /* Use flexbox to arrange images in a row */
+    justify-content: center; /* Center the images horizontally */
+    margin-top: 20px; /* Space above the meme gallery */
+}
+
+.meme {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Space between images */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+}
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
